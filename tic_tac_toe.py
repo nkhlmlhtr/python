@@ -82,7 +82,6 @@ def set_pointer(player,num,metrix):
         replace_index(metrix[1], player, num)
     elif num in metrix[2]:
         replace_index(metrix[2], player, num)
-    print('In set_pointer ,',metrix)
     result = check_rules(metrix)
 
     if result.lower() == 'won':
